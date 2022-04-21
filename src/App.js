@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
 import {Navbar, NavbarBrand} from 'reactstrap'
-import {STAFFS, DEPARTMENTS, ROLE} from './shared/staffs';
 import StaffList from './components/StaffListComponent';
+import {STAFFS, DEPARTMENTS, ROLE} from './shared/staffs';
 import './App.css';
 
 class App extends Component {
