@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { useState } from 'react';
 import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle} from 'reactstrap';
 import { DEPARTMENTS } from '../shared/staffs'
 import dateFormat from 'dateformat';
@@ -46,7 +47,7 @@ renderStaff(staff) {
 render () { 
     const staffList = this.props.staffs.map((staff) => {
     return (
-        <div key={staff.id} className = 'col-12 col-md-5 m-1'>
+        <div key={staff.id} className = 'text-center col-12 col-md-5 col-lg-3'>
             <Card onClick = {() => this.onStaffSelect(staff)}>
                 <CardTitle>{staff.name}</CardTitle>
             </Card>
@@ -55,13 +56,16 @@ render () {
             )
         });
     return (
-        <div className = 'contaniner'>
-            <div className = 'row'>
+        <div className = 'contaniner-md'>
+            <div className = 'row justify-content-md-center'>
                 {staffList}
+            <p>Bấm Vào Tên Nhân Viên Để Xem Thông Tin.</p>
             </div>
             <div className = 'row'>
                 {this.renderStaff(this.state.selectedStaff)}
+                
             </div>
+            
         </div>
         ) ;
     };
