@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Button} from 'reactstrap';
 import { useState } from 'react';
 import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle} from 'reactstrap';
 import { DEPARTMENTS } from '../shared/staffs'
@@ -10,12 +11,16 @@ class StaffList extends Component {
         super(props);
 
         this.state = {
-          selectedStaff: null
+          selectedStaff: null,
+          columnSizeDefault: 'col-12 col-md-5 col-lg-3'
     }
 }
 onStaffSelect(staff) {
     this.setState({selectedStaff: staff});
     console.log(staff)
+}
+onColumnSelect(column) {
+    this.setState({columnSizeDefault: column});
 }
 
 renderStaff(staff) {
@@ -44,19 +49,32 @@ renderStaff(staff) {
         );
     }
 }
-render () { 
+render () {
+    console.log(this.state.columnSizeDefault) 
     const staffList = this.props.staffs.map((staff) => {
     return (
-        <div key={staff.id} className = 'text-center col-12 col-md-5 col-lg-3'>
-            <Card onClick = {() => this.onStaffSelect(staff)}>
+        <div className = {this.state.columnSizeDefault}>
+            <Card key = {staff.id} onClick = {() => this.onStaffSelect(staff)}>
                 <CardTitle>{staff.name}</CardTitle>
             </Card>
-
         </div>
             )
         });
     return (
-        <div className = 'contaniner-md'>
+        <div>
+        <div className="container">
+                <div className="row justify-content-md-center">
+                    <Button onClick = {() => this.onColumnSelect('col-md-6')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 2 Cột
+                    </Button>
+
+                    <Button onClick = {() => this.onColumnSelect('col-md-3')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 4 Cột
+                    </Button>
+
+                    <Button onClick = {() => this.onColumnSelect('col-md-2')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 6 Cột
+                    </Button>
+                </div>
+            </div>
+        <div className = 'contaniner'>
             <div className = 'row justify-content-md-center'>
                 {staffList}
             <p>Bấm Vào Tên Nhân Viên Để Xem Thông Tin.</p>
@@ -65,9 +83,9 @@ render () {
                 {this.renderStaff(this.state.selectedStaff)}
                 
             </div>
-            
+        </div>    
         </div>
-        ) ;
+        );
     };
 }
 
