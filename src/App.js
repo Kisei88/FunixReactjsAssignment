@@ -1,10 +1,19 @@
 import logo from './logo.svg';
+import React, { Component } from 'react';
 import {Navbar, NavbarBrand} from 'reactstrap'
-import {STAFFS} from './shared/staffs'
+import {STAFFS, DEPARTMENTS, ROLE} from './shared/staffs';
 import StaffList from './components/StaffListComponent';
 import './App.css';
 
-function App() {
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      staffs: STAFFS
+    };
+  }
+
+render() {
   return (
     <div>
       <Navbar dark color="primary">
@@ -14,9 +23,10 @@ function App() {
           </NavbarBrand>
         </div>
       </Navbar>
-      <StaffList/>
+      <StaffList staffs = {this.state.staffs}/>
     </div>
   );
+}
 }
 
 export default App;
