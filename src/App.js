@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap'
-import {STAFFS} from './shared.staffs'
+import {STAFFS} from './shared/staffs'
+import StaffList from './components/StaffListComponent';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           </NavbarBrand>
         </div>
       </Navbar>
+      <StaffList/>
     </div>
   );
 }
