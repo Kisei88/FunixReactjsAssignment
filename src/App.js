@@ -1,8 +1,6 @@
 import logo from './logo.svg';
-import React, { Component } from 'react';
-import { useState, useEffect } from 'react';
-import {Navbar, NavbarBrand } from 'reactstrap';
-import { Button } from 'reactstrap';
+import React, { Component, useState, useEffect } from 'react';
+import {Navbar, NavbarBrand, Button } from 'reactstrap';
 import StaffList from './components/StaffListComponent';
 import {STAFFS, DEPARTMENTS, ROLE} from './shared/staffs';
 import './App.css';
