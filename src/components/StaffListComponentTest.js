@@ -3,24 +3,29 @@ import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Button} fr
 import { DEPARTMENTS } from '../shared/staffs'
 import dateFormat from 'dateformat';
 
-class StaffList extends Component {
+// class StaffList extends Component {
 
-    constructor(props) {
-        super(props);
+//     constructor(props) {
+//         super(props);
 
-        this.state = {
-          selectedStaff: null,
-          columnSizeDefault: 'col-12 col-md-5 col-lg-3'
-    }
-}
-onStaffSelect(staff) {
-    this.setState({selectedStaff: staff});
-    console.log(staff)
-}
-onColumnSelect(column) {
-    this.setState({columnSizeDefault: column});
+//         this.state = {
+//           selectedStaff: null,
+//           columnSizeDefault: 'col-12 col-md-5 col-lg-3'
+//     }
+// }
+function StaffList(props) {
+    const [selectedStaff, setSelectedStaff] = useState(null);
+    const [columnSizeDefault, setColumnSizeDefault] = useState('col-12 col-md-5 col-lg-3');
+    const [renderStaff, setRenderStaff] = useState(staff);
+
+const onStaffSelect = staff =>{
+    setSelectedStaff(staff)
 };
-renderStaff(staff) {
+
+const onColumnSelect = column => {
+    setColumnSizeDefault(column)
+};
+
     if (staff != null) {
         return(
             <Card>
@@ -46,7 +51,7 @@ renderStaff(staff) {
         );
     }
 }
-render () {
+// render () {
     console.log(this.state.columnSizeDefault) 
     const staffList = this.props.staffs.map((staff) => {
     return (
@@ -85,6 +90,5 @@ render () {
         );
     };
 }
-
 
 export default StaffList;
