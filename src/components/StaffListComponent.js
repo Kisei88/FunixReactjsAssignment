@@ -1,6 +1,5 @@
-import React, { Component, useState, useEffect } from 'react';
-import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Button} from 'reactstrap';
-import { DEPARTMENTS } from '../shared/staffs'
+import React, { Component } from 'react';
+import {Card, CardImg, CardText, CardBody, CardTitle, Button} from 'reactstrap';
 import dateFormat from 'dateformat';
 
 class StaffList extends Component {
@@ -13,13 +12,13 @@ class StaffList extends Component {
           columnSizeDefault: 'col-12 col-md-5 col-lg-3'
     }
 }
+onColumnSelect(column) {
+    this.setState({columnSizeDefault: column});
+};
 onStaffSelect(staff) {
     this.setState({selectedStaff: staff});
     console.log(staff)
 }
-onColumnSelect(column) {
-    this.setState({columnSizeDefault: column});
-};
 renderStaff(staff) {
     if (staff != null) {
         return(

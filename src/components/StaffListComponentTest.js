@@ -1,31 +1,24 @@
-import React, { Component, useState, useEffect } from 'react';
-import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Button} from 'reactstrap';
-import { DEPARTMENTS } from '../shared/staffs'
+import React, { useState, useEffect } from 'react';
+import {Card, CardImg, CardText, CardBody, CardTitle, Button} from 'reactstrap';
+import { STAFFS } from '../shared/staffs'
 import dateFormat from 'dateformat';
 
-// class StaffList extends Component {
 
-//     constructor(props) {
-//         super(props);
-
-//         this.state = {
-//           selectedStaff: null,
-//           columnSizeDefault: 'col-12 col-md-5 col-lg-3'
-//     }
-// }
-function StaffList(props) {
+function StaffList(staff) {
     const [selectedStaff, setSelectedStaff] = useState(null);
     const [columnSizeDefault, setColumnSizeDefault] = useState('col-12 col-md-5 col-lg-3');
-    const [renderStaff, setRenderStaff] = useState(staff);
+    const [staffs, setStaffs] = useState(STAFFS);
+    const [staffList, setStaffList] = useState(staffs.map)
+
 
 const onStaffSelect = staff =>{
-    setSelectedStaff(staff)
+    selectedStaff(staff)
 };
 
 const onColumnSelect = column => {
     setColumnSizeDefault(column)
 };
-
+const renderStaff = function(staff) {
     if (staff != null) {
         return(
             <Card>
@@ -50,45 +43,37 @@ const onColumnSelect = column => {
             <div></div>
         );
     }
-}
-// render () {
-    console.log(this.state.columnSizeDefault) 
-    const staffList = this.props.staffs.map((staff) => {
-    return (
-        <div className = {this.state.columnSizeDefault}>
-            <Card key = {staff.id} onClick = {() => this.onStaffSelect(staff)}>
+};
+  return(
+      <div>  
+        <div className = {columnSizeDefault}>
+            <Card key = {staff.id} onClick = {() => onStaffSelect(staff)}>
                 <CardTitle>{staff.name}</CardTitle>
             </Card>
         </div>
-            )
-        });
-    return (
-        <div>
         <div className="container">
                 <div className="row justify-content-md-center">
-                    <Button onClick = {() => this.onColumnSelect('col-md-6')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 2 Cột
+                    <Button onClick = {() => onColumnSelect('col-md-6')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 2 Cột
                     </Button>
 
-                    <Button onClick = {() => this.onColumnSelect('col-md-3')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 4 Cột
+                    <Button onClick = {() => onColumnSelect('col-md-3')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 4 Cột
                     </Button>
 
-                    <Button onClick = {() => this.onColumnSelect('col-md-2')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 6 Cột
+                    <Button onClick = {() => onColumnSelect('col-md-2')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 6 Cột
                     </Button>
                 </div>
-            </div>
+        </div>
         <div className = 'contaniner'>
             <div className = 'row justify-content-md-center'>
                 {staffList}
             <p>Bấm Vào Tên Nhân Viên Để Xem Thông Tin.</p>
             </div>
             <div className = 'row'>
-                {this.renderStaff(this.state.selectedStaff)}
-                
+                {renderStaff}
             </div>
         </div>    
         </div>
-        );
-    };
+        )
 }
 
 export default StaffList;

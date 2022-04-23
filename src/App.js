@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import React, { Component, useState, useEffect } from 'react';
-import {Navbar, NavbarBrand, Button } from 'reactstrap';
+import React, { useState } from 'react';
+import {Navbar, NavbarBrand} from 'reactstrap';
 import StaffList from './components/StaffListComponent';
-import {STAFFS, DEPARTMENTS, ROLE} from './shared/staffs';
+import {STAFFS} from './shared/staffs';
 import './App.css';
 
 // class App extends Component {
