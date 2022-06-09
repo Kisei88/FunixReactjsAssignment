@@ -6,7 +6,7 @@ import Salary from './SalaryComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
-import { DEPARTMENTS, ROLE, STAFFS } from './shared/staffs';
+import { DEPARTMENTS, ROLE, STAFFS } from '../shared/staffs';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 export default function Main() {
@@ -27,15 +27,15 @@ const HomePage = () => {
     )
   }
 
-  const StaffWithId = ({match}) => {
-    return(
-      <StaffDetail 
-      dish = {dishes.filter((dish) => dish.id === parseInt(match.params.dishId, 10))[0]}
+  // const StaffWithId = ({match}) => {
+  //   return(
+  //     <StaffDetail 
+  //     dish = {dishes.filter((dish) => dish.id === parseInt(match.params.dishId, 10))[0]}
 
-      comments = {comments.filter((comment) => comment.dishId === parseInt(match.params.dishId, 10))}
-      />
-    )
-  }
+  //     comments = {comments.filter((comment) => comment.dishId === parseInt(match.params.dishId, 10))}
+  //     />
+  //   )
+  // }
 return (
     <div>
         <Header />
@@ -43,7 +43,7 @@ return (
           <Route path = '/home' component = {HomePage}/>
           <Route path = '/phongban' component = {() => <Department department = {DEPARTMENTS}/>}/>
           <Route exact path = '/bangluong' component =  {Salary} />
-          <Route path = '/nhanvien' component = {() => <StaffLists staff = {STAFFS} /> } />
+          <Route path = '/nhanvien' component = {() => <StaffLists staff = {STAFFS}/>}/>
           <Redirect to ='/home' />
         </Switch>
         <Footer />
