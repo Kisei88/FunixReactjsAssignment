@@ -5,7 +5,7 @@ import dateFormat from 'dateformat';
 
 export default function StaffList(props) {
     console.log(props)
-    const ListOfStaffs = props.staffs.map((staff) => {
+    const StaffList = props.staffs.map((staff) => {
         return (
             <div key = {staff.id}>
                 <div className = 'col-12 col-md-2 m-1'>
@@ -18,7 +18,7 @@ export default function StaffList(props) {
     return (
         <div className = 'container'>
             <div className = 'row'>
-                {ListOfStaffs}
+                {StaffList}
             </div>
         </div>
     )

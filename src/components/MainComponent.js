@@ -2,6 +2,7 @@ import '../App.css';
 import React, {Component, useState} from 'react';
 import Department from './DepartmentComponent';
 import StaffLists from './StaffList';
+import StaffDetail from './StaffDetail';
 import Salary from './SalaryComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
@@ -21,32 +22,26 @@ export default function Main() {
 //     return (
 //       <Home 
 //       staff = {staffs.filter((staff) => staff.id)}
-
-//       department = {departments.filter((props) => props.id)[0]}
-
-//       salary = {salary.filter((salary) => salary.id)[0]}
 //       />
 //     )
 //   }
 
-  // const StaffWithId = ({match}) => {
-  //   return(
-  //     <StaffDetail 
-  //     staff = {staffs.filter((staff) => staff.id === parseInt(match.params.staffId, 10))[0]}
-
-  //     comments = {comments.filter((comment) => comment.dishId === parseInt(match.params.dishId, 10))}
-  //     />
-  //   )
-  // }
+  const StaffWithId = ({match}) => {
+    return(
+      <StaffDetail 
+      staff = {nhanvien.staffs.filter((staff) => staff.id === parseInt(match.params.nhanvienId, 10))[0]}/>
+    )
+  }
 return (
     <div>
         <Header />
         <Routes>
-          {/* <Route path = '/home' element = {<HomePage/>}/> */}
-          {/* <Route path = '/phongban' element = {() => <Department department = {DEPARTMENTS}/>}/> */}
-          {/* <Route exact path = '/bangluong' element =  {() => <Salary salary = {salary}/>}/>  */}
+          {/* <Route path = '/home' element = {<HomePage/>}/>  */}
+          <Route path = '/phongban' element = {() => <Department department = {nhanvien.departments}/>}/> 
+          {/* <Route exact path = '/bangluong' element =  {() => <Salary salary = {salary}/>}/> */}
           <Route exact path = '/nhanvien' elementent = {() => <StaffLists staffs = {nhanvien.staffs}/>}/>
-        </Routes>
+          <Route path ='/nhanvien:nhanvienId' element = {<StaffWithId/>}/>
+        </Routes> 
         <Footer />
     </div>
   );

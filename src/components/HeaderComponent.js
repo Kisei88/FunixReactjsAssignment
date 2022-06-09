@@ -1,4 +1,4 @@
-import React, { Component, useState,useEffect } from 'react';
+import React, { useState,useEffect } from 'react';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, NavItem, Collapse} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -41,7 +41,6 @@ function Header() {
                     <div className  = 'container'>
                         <div className = 'row row-header'>
                             <div className = 'col-12 col-sm-6'>
-                                <h1></h1>
                             </div>
                         </div>
                     </div>
