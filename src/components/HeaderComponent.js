@@ -1,30 +1,16 @@
 import React, { Component, useState,useEffect } from 'react';
-import {Navbar, NavbarBrand, Nav, NavbarToggler, NavItem, Collapse, Jumbotron} from 'reactstrap';
-import {NavLink, Link} from 'react-router-dom';
+import {Navbar, NavbarBrand, Nav, NavbarToggler, NavItem, Collapse} from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 
-// class Header extends Component {
-
-//     constructor (props) {
-//         super(props);
-//         this.state = {
-//             isNavOpen: false,
-//         };
-//         this.toggleNav = this.toggleNav.bind(this);
-//     }
-        
-    // toggleNav() {
-    //     this.setState({ isNavOpen: !this.state.isNavOpen });
-    // }
-    // render () {
 function Header() {
-    const [isNavOpen, setIsNavOpen] = useState (false)
+    const [isNavOpen, setIsNavOpen] = useState (false);
     const toggleNav = () =>{
         setIsNavOpen(!isNavOpen)
     }
         return (
             <React.Fragment>
-                <Navbar dark expand = 'md'>
+                <Navbar color = 'primary' dark expand = 'md'>
                     <div className  = 'container'>
                         <NavbarToggler onClick = {toggleNav} />
                         <NavbarBrand className = 'mr-auto' href = '/'>
@@ -33,33 +19,33 @@ function Header() {
                         <Collapse isOpen = {isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className = 'nav-link' to = '/home'>
-                                        <span className = 'fa fa-home fa-lg'></span> Home
+                                    <NavLink className = 'nav-link' to = '/nhanvien'>
+                                        <span className = 'fa fa-home fa-lg'></span> Nhân Viên 
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className = 'nav-link' to = '/department'>
-                                        <span className = 'fa fa-info fa-lg'></span> About Us
+                                    <NavLink className = 'nav-link' to = '/phongban'>
+                                        <span className = 'fa fa-info fa-lg'></span> Phòng Ban
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className = 'nav-link' to = '/salary'>
-                                        <span className = 'fa fa-list fa-lg'></span> Nhân viên
+                                    <NavLink className = 'nav-link' to = '/luong'>
+                                        <span className = 'fa fa-list fa-lg'></span> Bảng Lương
                                     </NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
                     </div>
                 </Navbar>
-                <Jumbotron>
+                <div className = 'Jumbotron'>
                     <div className  = 'container'>
                         <div className = 'row row-header'>
                             <div className = 'col-12 col-sm-6'>
-                                <h1>ABC</h1>
+                                <h1></h1>
                             </div>
                         </div>
                     </div>
-                </Jumbotron>
+                </div>
             </React.Fragment>
         );
     }
