@@ -9,7 +9,7 @@ class StaffList extends Component {
 
         this.state = {
           selectedStaff: null,
-          columnSizeDefault: 'col-12 col-md-5 col-lg-3'
+          columnSizeDefault: 'col-6 col-md-4 col-lg-2'
     }
 }
 onColumnSelect(column) {
