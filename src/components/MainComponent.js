@@ -1,5 +1,5 @@
 import '../App.css';
-import React, {Component, useState} from 'react';
+import React, { useState } from 'react';
 import Department from './DepartmentComponent';
 import StaffLists from './StaffList';
 import StaffDetail from './StaffDetail';
@@ -8,14 +8,11 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import { DEPARTMENTS, STAFFS } from '../shared/staffs';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useParams } from 'react-router-dom';
 
 export default function Main() {
-  //const [departments] = useState(DEPARTMENTS)
-  const [nhanvien, setNhanVien] = useState({
-    staffs: STAFFS,
-    departments: DEPARTMENTS
-  });
+  const [departments] = useState(DEPARTMENTS)
+  const [staffs, setStaffs] = useState(STAFFS);
   //const [salary] = useState(salary)
   
 // const HomePage = () => {
@@ -26,25 +23,24 @@ export default function Main() {
 //     )
 //   }
 
-  const StaffWithId = ({match}) => {
+  const StaffWithId = () => {
+    let staffId = {useParams}
     return(
       <StaffDetail 
-      staff = {nhanvien.staffs.filter((staff) => staff.id === parseInt(match.params.nhanvienId, 10))[0]}/>
-    )
-  }
+      staff = {staffs.filter((staff) => staff.id === parseInt(staffId, 10))[0]}/>
+    );
+  };
 return (
     <div>
         <Header />
         <Routes>
-          {/* <Route path = '/home' element = {<HomePage/>}/>  */}
-          <Route path = '/phongban' element = {() => <Department department = {nhanvien.departments}/>}/> 
-          {/* <Route exact path = '/bangluong' element =  {() => <Salary salary = {salary}/>}/> */}
-          <Route exact path = '/nhanvien' elementent = {() => <StaffLists staffs = {nhanvien.staffs}/>}/>
-          <Route path ='/nhanvien:nhanvienId' element = {<StaffWithId/>}/>
+          <Route path = '/' element = {<StaffLists staffs = {STAFFS}/>}/> 
+          <Route path = '/phongban' element = {<Department dept = {DEPARTMENTS}/>}/> 
+          <Route path = '/bangluong' element =  {() => <Salary salary = {STAFFS}/>}/>
+          <Route exact path = '/nhanvien' element = {<StaffLists staffs = {STAFFS}/>}/>
+          <Route path ='/nhanvien/:staffId' element = {<StaffWithId/>}/>
         </Routes> 
         <Footer />
     </div>
   );
-}
-
-// export default Main
+};

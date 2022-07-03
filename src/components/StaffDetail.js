@@ -1,9 +1,9 @@
-import react from 'react';
+import React from 'react';
 import { Card, CardBody, CardTitle, CardText, CardImg, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import dateFormat from 'dateformat';
 
-export default function StaffDetail(props) {
+function StaffDetail(props) {
     console.log(props)
     if (props.staffs != null) {
     return (
@@ -14,16 +14,16 @@ export default function StaffDetail(props) {
                         <Link to = '/staff'>Nhân Viên</Link>
                     </BreadcrumbItem>
                     <BreadcrumbItem active>
-                        {props.staff.name}
+                        {props.staffs.name}
                     </BreadcrumbItem>
                 </Breadcrumb>
                 <div className = 'col-12'>
-                    <h3>{props.staff.name}</h3>
+                    <h3>{props.staffs.name}</h3>
                     <hr/>
                 </div>
             </div>
             <div className = 'row mb-3'>
-                <RenderStaff staff = {props.staff}/>
+                <RenderStaff staff = {props.staffs}/>
             </div>
         </div>
     )}else {
@@ -57,4 +57,6 @@ function RenderStaff(staff) {
             <div></div>
         );
     }
-}
+};
+
+export default StaffDetail;

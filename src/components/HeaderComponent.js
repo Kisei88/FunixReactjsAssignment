@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, NavItem, Collapse} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -29,7 +29,7 @@ function Header() {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className = 'nav-link' to = '/luong'>
+                                    <NavLink className = 'nav-link' to = '/bangluong'>
                                         <span className = 'fa fa-list fa-lg'></span> Bảng Lương
                                     </NavLink>
                                 </NavItem>

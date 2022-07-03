@@ -1,14 +1,10 @@
 import React from 'react';
-// import {Card, CardImg, CardText, CardBody, CardTitle, Button} from 'reactstrap';
-import dateFormat from 'dateformat';
-
 
 export default function StaffList(props) {
-    console.log(props)
     const StaffList = props.staffs.map((staff) => {
         return (
             <div key = {staff.id}>
-                <div className = 'col-12 col-md-2 m-1'>
+                <div className = 'col-6 col-md-4 col-lg-2 m-1 text-align-justify'>
                     <img src = {staff.image} alt = {staff.name} />
                     <p>{staff.name}</p>
                 </div>
