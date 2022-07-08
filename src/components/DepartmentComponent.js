@@ -1,29 +1,32 @@
 import React from 'react';
-import { Card, CardTitle, CardText, CardBody } from 'reactstrap'
+import { Card, CardHeader, CardText, CardBody } from 'reactstrap'
 
 function Department(props) {
-    console.log(props)
     const Department = props.dept.map((department) => {
-        console.log(department)
         return (
-            <div className = 'col-12 col-md-6, col-lg-3, m-1' key = {department.id}>
-            <RenderDepartment dept = {Department} />
+            <div className = 'col-12 col-md-6, col-lg-3 my-3' key = {department.id}>
+            <RenderDepartment dept = {department} />
             </div>
         )
     })
     return (
-        <div className = 'container'>
-            <div className = 'row shadow m-3'>{Department}</div>
+        <div className = 'container fluid'>
+            <div className = 'row shadow'>
+                {Department}
+            </div>
         </div>
     )
 }
-const RenderDepartment = function(props) {
+function RenderDepartment(props) {
+    let dept = props.dept;
     return (
         <Card>
-            <CardTitle>{props.dept.name}</CardTitle>
+            <CardHeader className ='text-primary text-center h4'>
+               <h2> {dept.name} </h2>
+            </CardHeader>
             <CardBody>
                 <CardText>
-                    Số Lượng Nhân Viên: {props.dept.numberOfStaff} 
+                    Số Lượng Nhân Viên: {dept.numberOfStaff} 
                 </CardText>
             </CardBody>
         </Card>

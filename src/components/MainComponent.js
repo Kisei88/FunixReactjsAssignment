@@ -36,7 +36,7 @@ return (
         <Routes>
           <Route path = '/' element = {<StaffLists staffs = {STAFFS}/>}/> 
           <Route path = '/phongban' element = {<Department dept = {DEPARTMENTS}/>}/> 
-          <Route path = '/bangluong' element =  {() => <Salary salary = {STAFFS}/>}/>
+          <Route path = '/bangluong' element =  {<Salary staffs = {STAFFS}/>}/>
           <Route exact path = '/nhanvien' element = {<StaffLists staffs = {STAFFS}/>}/>
           <Route path ='/nhanvien/:staffId' element = {<StaffWithId/>}/>
         </Routes> 

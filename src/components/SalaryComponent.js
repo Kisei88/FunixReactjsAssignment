@@ -1,29 +1,44 @@
 import React from 'react';
-import { Card, CardTitle, CardText, CardBody } from 'reactstrap'
+import NumberFormat from 'react-number-format'
+import { Card, CardHeader, CardText, CardBody } from 'reactstrap'
+
+const BSalary = 3000000;
+const HSalary = 200000;
 
 function Salary(props) {
-    console.log(props)
-    const SalaryScale = props.staff.map((staffs) => {
-        console.log()
+    const StaffSalary = props.staffs.map((staffs) => {
         return (
-            <div className = 'col-12 col-md-6, col-lg-3, m-1' key = {staffs.id}>
-            <RenderSalary salary = {SalaryScale} />
+            <div className = 'col-12 col-md-6, col-lg-4 my-3' key = {staffs.id}>
+            <RenderSalary staff = {staffs} />
             </div>
         )
     })
     return (
         <div className = 'container'>
-            <div className = 'row shadow m-3'>{props.departments}</div>
+            <div className = 'row shadow'>
+                {StaffSalary}
+            </div>
         </div>
     )
 }
 const RenderSalary = function(props) {
+    let staff = props.staff
+    console.log(props)
     return (
-<Card>
-            <CardTitle>{props.dept.name}</CardTitle>
+        <Card>
+            <CardHeader className = 'text-primary text-center h4'>{staff.name}</CardHeader>
             <CardBody>
                 <CardText>
-                    Số Lượng Nhân Viên: {props.dept.numberOfStaff} 
+                    Mã Nhân Viên: {staff.id} 
+                </CardText>
+                <CardText>
+                    Hệ Số Lương: {staff.salaryScale} 
+                </CardText>
+                <CardText>
+                    Số Ngày Làm Thêm: {staff.overTime} 
+                </CardText>
+                <CardText>
+                    Lương {<NumberFormat value = {(BSalary * staff.salaryScale + HSalary * staff.overTime).toFixed(0)} thousandSeparator ={true} prefix = {'vnd '}/>} 
                 </CardText>
             </CardBody>
         </Card>
