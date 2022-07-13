@@ -51,36 +51,22 @@ render () {
     return (
         <div className = {this.state.columnSizeDefault}>
             <Card key = {staff.id} onClick = {() => this.onStaffSelect(staff)}>
+                <CardImg width = '100%' src = {staff.image} alt = {staff.name} />
                 <CardTitle>{staff.name}</CardTitle>
             </Card>
         </div>
             )
         });
     return (
-        <div>
-        <div className="container">
-                <div className="row justify-content-md-center">
-                    <Button onClick = {() => this.onColumnSelect('col-md-6')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 2 Cột
-                    </Button>
-
-                    <Button onClick = {() => this.onColumnSelect('col-md-3')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 4 Cột
-                    </Button>
-
-                    <Button onClick = {() => this.onColumnSelect('col-md-2')} className = 'btn btn-success col-12 col-md-4 col-lg-3 m-1'> 6 Cột
-                    </Button>
-                </div>
-            </div>
         <div className = 'contaniner'>
             <div className = 'row justify-content-md-center'>
                 {staffList}
-            <p>Bấm Vào Tên Nhân Viên Để Xem Thông Tin.</p>
             </div>
             <div className = 'row'>
                 {this.renderStaff(this.state.selectedStaff)}
                 
             </div>
         </div>    
-        </div>
         );
     };
 }
