@@ -1,6 +1,7 @@
 import React from 'react';
-import NumberFormat from 'react-number-format'
-import { Card, CardHeader, CardText, CardBody } from 'reactstrap'
+import NumberFormat from 'react-number-format';
+import { Card, CardHeader, CardText, CardBody, BreadcrumbItem, Breadcrumb} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const BSalary = 3000000;
 const HSalary = 200000;
@@ -15,6 +16,16 @@ function Salary(props) {
     })
     return (
         <div className = 'container'>
+            <div className = 'row'>
+            <Breadcrumb>
+                    <BreadcrumbItem>
+                        <Link to = '/'>Home</Link>
+                    </BreadcrumbItem>
+                    <BreadcrumbItem active>
+                        {props.name}
+                    </BreadcrumbItem>
+                </Breadcrumb>
+            </div>
             <div className = 'row shadow'>
                 {StaffSalary}
             </div>
@@ -23,7 +34,6 @@ function Salary(props) {
 }
 const RenderSalary = function(props) {
     let staff = props.staff
-    console.log(props)
     return (
         <Card>
             <CardHeader className = 'text-primary text-center h4'>{staff.name}</CardHeader>

@@ -45,8 +45,7 @@ renderStaff(staff) {
         );
     }
 }
-render () {
-    console.log(this.state.columnSizeDefault) 
+render (onStaffSelect) {
     const staffList = this.props.staffs.map((staff) => {
     return (
         <div className = {this.state.columnSizeDefault}>
@@ -57,18 +56,23 @@ render () {
         </div>
             )
         });
+if (onStaffSelect != null) {
     return (
-        <div className = 'contaniner'>
-            <div className = 'row justify-content-md-center'>
-                {staffList}
-            </div>
-            <div className = 'row'>
-                {this.renderStaff(this.state.selectedStaff)}
-                
-            </div>
-        </div>    
-        );
-    };
+    <div className = 'contaniner'>
+        <div className = 'row justify-content-md-center'>
+            {this.renderStaff(this.state.selectedStaff)}
+        </div>
+    </div>)}
+else {
+    return (
+    <div className ='container'>    
+        <div className = 'row'>
+            <StaffList/>
+            
+        </div>
+    </div>);    
+};
+};
 }
 
 

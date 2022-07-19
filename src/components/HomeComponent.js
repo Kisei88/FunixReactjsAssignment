@@ -1,36 +1,34 @@
 import React from 'react';
 import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
-function RenderCard ({item}) {
-    return (
-        <Card>
-            <CardImg src = {item.image} alt = {item.name} />
-            <CardBody>
-                <CardTitle>{item.name}</CardTitle>
-                {item.designation ? <CardSubtitle>{item.designation}</CardSubtitle>: null}
-                <CardText>{item.description}</CardText>
-            </CardBody>
-
-        </Card>
-    )
-}
 
 function Home(props) {
-    console.log(props)
+
+    const RenderCard = props.staffs.map((staff) => {
+        return (
+            <Card className = 'col-6 col-md-4 col-lg-2 my-3' key = {staff.id}>
+                <Link to ={`/nhanvien/${staff.id}`}>
+                    <CardImg width = '100%' src = {staff.image} alt = {staff.name} />                
+                    <CardTitle className = 'text-center'>{staff.name}</CardTitle>
+                </Link>
+            </Card>
+        )
+    });    
+
     return (
         <div className = 'container'>
-            <div className ='row align-items-start'>
-                <div className = 'col-12 col-md m-1'>
-                    <RenderCard item = {props.staff} />
-                </div>
-                <div className = 'col-12 col-md m-1'>
+            <div className ='row'>
+                    {RenderCard}
+            </div>
+                {/* <div className = 'col-12 col-md m-1'>
                     <RenderCard item = {props.department} />
                 </div>
                 <div className = 'col-12 col-md m-1'>
                     <RenderCard item = {props.salary} />
-                </div>
-            </div>
+                </div> */}
         </div>
+            
     )
 };
 
