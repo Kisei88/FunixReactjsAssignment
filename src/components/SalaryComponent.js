@@ -9,21 +9,21 @@ const HSalary = 200000;
 function Salary(props) {
     const StaffSalary = props.staffs.map((staffs) => {
         return (
-            <div className = 'col-12 col-md-6, col-lg-4 my-3' key = {staffs.id}>
+            <div className = 'col-12 col-md-6, col-lg-4 my-2' key = {staffs.id}>
             <RenderSalary staff = {staffs} />
             </div>
         )
     })
     return (
-        <div className = 'container'>
+        <div className = 'container-fluid'>
             <div className = 'row'>
             <Breadcrumb>
                     <BreadcrumbItem>
-                        <Link to = '/'>Home</Link>
+                        <Link to = '/'>Trang Chủ</Link>
                     </BreadcrumbItem>
-                    <BreadcrumbItem active>
+                    {/* <BreadcrumbItem active>
                         {props.name}
-                    </BreadcrumbItem>
+                    </BreadcrumbItem> */}
                 </Breadcrumb>
             </div>
             <div className = 'row shadow'>

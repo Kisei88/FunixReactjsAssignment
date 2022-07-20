@@ -14,7 +14,7 @@ function Header() {
                     <div className  = 'container'>
                         <NavbarToggler onClick = {toggleNav} />
                         <NavbarBrand className = 'mr-auto' href = '/'>
-                            <img src = 'assets/images/logo.png' height ='30' width = '41' alt = 'Công Ty A Logo'/>
+                            <img src = 'assets/images/logo.png' height ='30' width = '35' alt = 'Công Ty A Logo'/>
                         </NavbarBrand>
                         <Collapse isOpen = {isNavOpen} navbar>
                             <Nav navbar>

@@ -5,21 +5,21 @@ import { Link } from 'react-router-dom';
 function Department(props) {
     const Department = props.dept.map((department) => {
         return (
-            <div className = 'col-12 col-md-6, col-lg-3 my-3' key = {department.id}>
+            <div className = 'col-12 col-md-6, col-lg-4 my-2' key = {department.id}>
             <RenderDepartment dept = {department} />
             </div>
         )
     })
     return (
-        <div className = 'container fluid'>
+        <div className = 'container-fluid'>
             <div className = 'row'>
             <Breadcrumb>
                     <BreadcrumbItem>
-                        <Link to = '/'>Home</Link>
+                        <Link to = '/'>Trang Chủ</Link>
                     </BreadcrumbItem>
-                    <BreadcrumbItem active>
+                    {/* <BreadcrumbItem active>
                         {props.name}
-                    </BreadcrumbItem>
+                    </BreadcrumbItem> */}
                 </Breadcrumb>
             </div>
             <div className = 'row shadow'>
