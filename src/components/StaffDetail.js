@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import dateFormat from 'dateformat';
 
 
-function StaffDetail(props) {
+export default function StaffDetail(props) {
     console.log(props)
     const staff = props.staff
 
     // Render Staff Imgage
             function RenderAvatar() {
                     return(
-                        <Card className = 'col-12 col-md-6 border-0'>
+                        <Card className = 'col-12 col-md-4 col-lg-3 border-0 my-2'>
                             <CardImg width = '100%' src = {staff.image} alt = {staff.name} />
                         </Card>
                     )
@@ -21,15 +21,14 @@ function StaffDetail(props) {
             function RenderInfo() {
                 if (staff != null) {
                     return(
-                        <Card className = 'col-12 col-md-6 border-0'>
-                            <CardHeader className = 'h3 text-center text-primary'>Họ Và Tên: {staff.name}</CardHeader>
+                        <Card className = 'col-12 col-md-8 col-lg-9 border-0 my-2'>
+                            <CardHeader className = 'h4 text-center text-primary'>Họ Và Tên: {staff.name}</CardHeader>
                             <CardBody>
                                 <CardText>Ngày Sinh: {dateFormat(staff.doB, 'dd/mm/yyyy')}</CardText>
 
                                 <CardText>Ngày Vào Công Ty: {dateFormat(staff.startDate, 'dd/mm/yyyy')}</CardText>
 
-                                <CardText>Phòng Ban: {staff.department.name}
-                                </CardText>
+                                <CardText>Phòng Ban: {staff.department.name}</CardText>
 
                                 <CardText> Số Ngày Nghỉ Còn Lại: {staff.annualLeave} ngày</CardText>
 
@@ -45,7 +44,7 @@ function StaffDetail(props) {
             }
     if (staff != null) {
     return (
-        <div className = 'container'>
+        <div className = 'container-fluid'>
             <div className = 'row'>
                 <Breadcrumb>
                     <BreadcrumbItem>
@@ -70,4 +69,3 @@ function StaffDetail(props) {
         )
     };
 }
-export default StaffDetail;
