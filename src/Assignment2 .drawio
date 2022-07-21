@@ -1,0 +1,510 @@
+<mxfile host="65bd71144e" pages="5">
+    <diagram id="pIHbqozfSebzYdN4xIxs" name="Trang Chủ">
+        <mxGraphModel dx="1074" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#525252" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-8" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="10" width="490" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-8" vertex="1">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-5" value="Nhân Viên" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="FqqWBRT7rxHbLpTfamz2-8" vertex="1">
+                    <mxGeometry x="93" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-6" value="Phòng Ban" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-8" vertex="1">
+                    <mxGeometry x="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-7" value="Bảng Lương" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-8" vertex="1">
+                    <mxGeometry x="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-15" value="" style="group;flipV=0;labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="120" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-1" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-10" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-11" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-12" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-13" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-14" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-15" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-16" value="" style="group;flipV=0;flipH=1;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="520" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-17" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-18" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-19" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-20" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-21" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-22" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-16" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-23" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="321" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-24" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-25" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-26" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-27" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-28" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-29" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="FqqWBRT7rxHbLpTfamz2-23" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqqWBRT7rxHbLpTfamz2-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Footer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="710" width="850" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="1ipy1Xb4Tlhtx7YWOeer" name="Nhân Viên">
+        <mxGraphModel dx="1074" dy="692" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#525252" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-2" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="10" width="490" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-2" vertex="1">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-4" value="Nhân Viên" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#3333FF;" parent="s5yiofNwhKZOh3NJX2ZW-2" vertex="1">
+                    <mxGeometry x="93" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-5" value="Phòng Ban" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-2" vertex="1">
+                    <mxGeometry x="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-6" value="Bảng Lương" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-2" vertex="1">
+                    <mxGeometry x="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-7" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="120" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-8" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-9" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-10" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-11" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-12" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-13" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-7" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-14" value="" style="group;flipV=0;flipH=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="520" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-15" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-16" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-17" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-18" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-19" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-20" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="s5yiofNwhKZOh3NJX2ZW-14" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-21" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="321" width="800" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-22" value="Ảnh + Tên&lt;br&gt;&amp;nbsp;Nhân Viên" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-23" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry x="140" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-24" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry x="275" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-25" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry x="410" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-26" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry x="544" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-27" value="&#10;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ảnh + Tên&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Nhân Viên&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=default;fontColor=default;" parent="s5yiofNwhKZOh3NJX2ZW-21" vertex="1">
+                    <mxGeometry x="680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Footer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="710" width="850" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5yiofNwhKZOh3NJX2ZW-29" value="&lt;font color=&quot;#000000&quot;&gt;(BreadCrumb)&lt;/font&gt;Trang Chủ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="66" width="240" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="SrZi1buX8ehUMs8loA2V" name="StaffDetail">
+        <mxGraphModel dx="1074" dy="692" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#525252" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-2" value="" style="group;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="10" width="490" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="YpghgwZGjj-rhZoaGFSL-2" vertex="1">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-4" value="&lt;font color=&quot;#3333ff&quot;&gt;Nhân Viên&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#000000;" parent="YpghgwZGjj-rhZoaGFSL-2" vertex="1">
+                    <mxGeometry x="93" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-5" value="&lt;font color=&quot;#ffffff&quot;&gt;Phòng Ban&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#000000;" parent="YpghgwZGjj-rhZoaGFSL-2" vertex="1">
+                    <mxGeometry x="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-6" value="Bảng Lương" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="YpghgwZGjj-rhZoaGFSL-2" vertex="1">
+                    <mxGeometry x="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Footer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="450" width="850" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-20" value="&lt;font color=&quot;#000000&quot;&gt;(BreadCrumb)&lt;/font&gt;Trang Chủ/Nhân Viên/Tên Nhân Viên" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="1" vertex="1">
+                    <mxGeometry x="1" y="65" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-25" value="Ảnh Nhân Viên" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=18;fontColor=#3333FF;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="24" y="120" width="320" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-26" value="Họ Và Tên: Id" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=24;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#3333FF;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="372" y="121" width="456" height="301" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-27" value="Ngày Sinh: Staff.doB" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;aspect=fixed;spacingTop=12;align=left;spacing=2;" parent="YpghgwZGjj-rhZoaGFSL-26" vertex="1">
+                    <mxGeometry y="26" width="456" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-28" value="Ngày vào Công Ty: Staff.StartDate&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;spacingTop=12;" parent="YpghgwZGjj-rhZoaGFSL-26" vertex="1">
+                    <mxGeometry y="81" width="456" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-29" value="Phòng Ban: Staff.department.name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=default;spacingTop=12;" parent="YpghgwZGjj-rhZoaGFSL-26" vertex="1">
+                    <mxGeometry y="136" width="456" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-30" value="Số Ngày Nghỉ Còn Lại: Staff.annualLeave" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=default;spacingTop=12;" parent="YpghgwZGjj-rhZoaGFSL-26" vertex="1">
+                    <mxGeometry y="191" width="456" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="YpghgwZGjj-rhZoaGFSL-31" value="Số Ngày Làm Thêm: Staff.overTime" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=default;spacingTop=12;" parent="YpghgwZGjj-rhZoaGFSL-26" vertex="1">
+                    <mxGeometry y="246" width="456" height="55" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="nS03X8hOoTcopQkTDurg" name="Phòng Ban">
+        <mxGraphModel dx="1074" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#525252" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-2" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="10" width="490" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="pSrB0meVSnxqqYlZ_FEb-2" vertex="1">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-4" value="Nhân Viên" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#000000;" parent="pSrB0meVSnxqqYlZ_FEb-2" vertex="1">
+                    <mxGeometry x="93" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-5" value="Phòng Ban" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#3333FF;" parent="pSrB0meVSnxqqYlZ_FEb-2" vertex="1">
+                    <mxGeometry x="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-6" value="Bảng Lương" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="pSrB0meVSnxqqYlZ_FEb-2" vertex="1">
+                    <mxGeometry x="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-7" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="30" y="120" width="800" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry width="260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-10" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3BSale%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3BS%E1%BB%91%20L%C6%B0%E1%BB%A3ng%20Nh%C3%A2n%20Vi%C3%AAn.%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3BlabelBackgroundColor%3Dnone%3BfontSize%3D20%3BfontColor%3D%233333FF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22120%22%20width%3D%22220%22%20height%3D%22120%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry x="275" width="255" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry x="544" width="256" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-1" value="&lt;h1 style=&quot;text-align: center;&quot;&gt;Sale&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;Số Lượng Nhân Viên.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry x="20" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-2" value="&lt;h1 style=&quot;text-align: center;&quot;&gt;HR&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;Số Lượng Nhân Viên.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry x="285" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-3" value="&lt;h1&gt;Marketing&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Số Lượng Nhân Viên.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;align=center;" parent="pSrB0meVSnxqqYlZ_FEb-7" vertex="1">
+                    <mxGeometry x="554" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="pSrB0meVSnxqqYlZ_FEb-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Footer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="440" width="850" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-4" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="25" y="280" width="800" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="i6Vqtehyyt4DKD0Xc6Ns-4" vertex="1">
+                    <mxGeometry width="260" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-6" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3BSale%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3BS%E1%BB%91%20L%C6%B0%E1%BB%A3ng%20Nh%C3%A2n%20Vi%C3%AAn.%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3BlabelBackgroundColor%3Dnone%3BfontSize%3D20%3BfontColor%3D%233333FF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22120%22%20width%3D%22220%22%20height%3D%22120%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="i6Vqtehyyt4DKD0Xc6Ns-4" vertex="1">
+                    <mxGeometry x="275" width="255" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-8" value="&lt;h1&gt;IT&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Số Lượng Nhân Viên.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;align=center;" parent="i6Vqtehyyt4DKD0Xc6Ns-4" vertex="1">
+                    <mxGeometry x="12" width="230" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-9" value="&lt;h1 style=&quot;text-align: center;&quot;&gt;Finance&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;Số Lượng Nhân Viên.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="i6Vqtehyyt4DKD0Xc6Ns-4" vertex="1">
+                    <mxGeometry x="285" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6Vqtehyyt4DKD0Xc6Ns-12" value="&lt;font color=&quot;#000000&quot;&gt;(BreadCrumb)&lt;/font&gt;Trang Chủ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="66" width="240" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="GXGC71OYjvFcau3S3Glo" name="Bảng Lương">
+        <mxGraphModel dx="1074" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#525252" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-2" value="" style="group;fontColor=#3333FF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="10" width="490" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="anpXgPMiKyOK6UweBvNc-2" vertex="1">
+                    <mxGeometry width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-4" value="Nhân Viên" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="anpXgPMiKyOK6UweBvNc-2" vertex="1">
+                    <mxGeometry x="93" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-5" value="Phòng Ban" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="anpXgPMiKyOK6UweBvNc-2" vertex="1">
+                    <mxGeometry x="230" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-6" value="Bảng Lương" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fontColor=#3333FF;" parent="anpXgPMiKyOK6UweBvNc-2" vertex="1">
+                    <mxGeometry x="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Footer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="919" width="850" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-20" value="&lt;font color=&quot;#000000&quot;&gt;(BreadCrumb)&lt;/font&gt;Trang Chủ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#3333FF;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="66" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-49" value="" style="group;strokeColor=none;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="590" y="120" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-33" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-49" vertex="1">
+                    <mxGeometry y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-34" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-49" vertex="1">
+                    <mxGeometry y="80" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-35" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-49" vertex="1">
+                    <mxGeometry y="120" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-36" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-49" vertex="1">
+                    <mxGeometry y="160" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-32" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-49" vertex="1">
+                    <mxGeometry width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-156" value="" style="group;strokeColor=none;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="320" y="120" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-157" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-156" vertex="1">
+                    <mxGeometry y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-158" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-156" vertex="1">
+                    <mxGeometry y="80" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-159" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-156" vertex="1">
+                    <mxGeometry y="120" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-160" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-156" vertex="1">
+                    <mxGeometry y="160" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-161" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-156" vertex="1">
+                    <mxGeometry width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-162" value="" style="group;strokeColor=none;labelBackgroundColor=#525252;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="119" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-163" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-162" vertex="1">
+                    <mxGeometry y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-164" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-162" vertex="1">
+                    <mxGeometry y="80" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-165" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-162" vertex="1">
+                    <mxGeometry y="120" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-166" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-162" vertex="1">
+                    <mxGeometry y="160" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-167" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-162" vertex="1">
+                    <mxGeometry width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-169" value="" style="group;flipH=0;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="370" width="770" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-120" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-169" vertex="1" connectable="0">
+                    <mxGeometry y="9" width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-121" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-120" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-122" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-120" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-123" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-120" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-124" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-120" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-125" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-120" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-126" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-169" vertex="1" connectable="0">
+                    <mxGeometry x="277.19999999999993" y="9" width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-127" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-126" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-128" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-126" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-129" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-126" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-130" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-126" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-131" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-126" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-132" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-169" vertex="1" connectable="0">
+                    <mxGeometry x="544.1333333333333" y="9" width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-133" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-132" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-134" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-132" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-135" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-132" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-136" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-132" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-137" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-132" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-170" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="660" width="770" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-138" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-170" vertex="1" connectable="0">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-139" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-138" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-140" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-138" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-141" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-138" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-142" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-138" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-143" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-138" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-144" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-170" vertex="1" connectable="0">
+                    <mxGeometry x="277.2" width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-145" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-144" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-146" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-144" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-147" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-144" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-148" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-144" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-149" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-144" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-150" value="" style="group;strokeColor=none;" parent="anpXgPMiKyOK6UweBvNc-170" vertex="1" connectable="0">
+                    <mxGeometry x="544.1333333333333" width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-151" value="Mã Nhân Viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-150" vertex="1">
+                    <mxGeometry y="40" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-152" value="Hệ Số Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-150" vertex="1">
+                    <mxGeometry y="80" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-153" value="Số Ngày Làm Thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-150" vertex="1">
+                    <mxGeometry y="120" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-154" value="Lương" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;labelBackgroundColor=none;fontSize=18;fontColor=#000000;" parent="anpXgPMiKyOK6UweBvNc-150" vertex="1">
+                    <mxGeometry y="160" width="225.86666666666665" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="anpXgPMiKyOK6UweBvNc-155" value="Tên Nhân Viên" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fontSize=25;fontColor=#3333FF;strokeColor=default;container=1;swimlaneLine=1;sketch=0;" parent="anpXgPMiKyOK6UweBvNc-150" vertex="1">
+                    <mxGeometry width="225.86666666666665" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
